@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 set :stage, :production
-server ENV['DEPLOY_APP_PRODUCTION_SERVER'], user: 'deploy', roles: %w{web app db}
+server ENV['DEPLOY_APP_PRODUCTION_SERVER'], user: 'deploy', roles: %w{web app}
 
 # role-based syntax
 # ==================
